@@ -72,6 +72,6 @@ _start:
  
     mov $1, %eax # syscall exit
     xor %ebx, %ebx # ebx = 0
-    int $0x80 # # invoke syscalls
+    int $0x80 # invoke syscalls
 
 
